@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Css/style-2.css" rel="stylesheet">
+    <title>Practica 2</title>
+    <h1>Practica 2</h1>
+    <a href="index.html">Volver</a>
+</head>
+
+<body>
+    <p class="resumen">
+        <b>
+            <p>
+            <h2 class="leccion"> Lección 1: Definición de HTML</h2>
+        </b><br>
+
+        <h4>Objetivos: En esta lección vamos a descubrir las características y capacidades que forman parte de la especificación de HTML5 y sus tecnologías conexas.</h4> <br> Definición de HTML5 HTML5 es una combinación de nuevas etiquetas de markup (lenguaje)
+        HTML, propiedades CSS3, JavaScript y algunas tecnologías complementarias de apoyo, pero que técnicamente son independientes de la propia especificación HTML5. Por ello vamos a distinguir entre la especificación HTML5 en sí y la familia HTML5.
+        Podemos definir la especificación HTML5 como nuevos elementos de markup o sintaxis, utilizados por los diseñadores para crear páginas web junto con las etiquetas utilizadas a día de hoy. Muchos de estos nuevos elementos ya son conocidos para los
+        diseñadores que trabajan con las etiquetas HTML tradicionales, como
+        <b>
+        < p>,
+            < ul> o < div>.
+    </b> Estas nuevas etiquetas suponen para desarrolladores y diseñadores, unas herramientas más avanzadas y se traducen en mejores experiencias para el usuario final. <br> <br>
+    </p>
+    <p>
+        La historia de HTML5 HTML4, que se dio por cerrado en 1998, es el lenguaje de markup que conforma la base de la gran mayoría de las páginas web que podemos ver a día de hoy. Los diseñadores y desarrolladores web han estado utilizando la especificación
+        HTML 4.01 durante bastantes años de manera satisfactoria, combinándola con CSS para la definición de estilos y con JavaScript para añadir interactividad a los contenidos. Tras la finalización de HTML 4.0.1, el W3C continuó sus trabajos en consonancia
+        con la evolución de la web, y comenzó con un lenguaje llamado XHTML 1.0. Existe una pequeña diferencia entre HTML 4.0.1 y XHTML 1.0 (XHTML es un lenguaje más estricto: por ejemplo, todas las etiquetas deben indicarse en minúsculas). Uno de los
+        objetivos de XHTML 1.0 era crear un lenguaje de markup que pudiera extenderse y resolver las necesidades de las tecnologías futuras, por ejemplo para los dispositivos móviles. Muchos sitios web se han creado utilizando XHTML 1.0 como marco de
+        desarrollo y muchos diseñadores y desarrolladores valoran positivamente sus reglas sintácticas más estrictas. <br></p>
+    <p>
+        HTML5 A día de hoy HTML no tiene capacidad para reproducir contenidos multimedia, como audio o vídeo, sin un complemento (un "plug-in") como los de Adobe® Flash® o Microsoft® Silverlight®. HTML tampoco tiene capacidad para almacenar datos en el ordenador
+        del usuario, esto se hace actualmente mediante un lenguaje de scripting o con alguna otra tecnología. No existe un formato de dibujo nativo en HTML. Los gráficos y animaciones se ofrecen en estos momentos en forma de archivos de imágenes o con
+        la ayuda de otros complementos (Adobe Flash, Java, Microsoft Silverlight u otros). En general, cada vez más gente depende de la web y utiliza aplicaciones web y las expectativas que se generan alrededor de lo que puede (o podría) hacer una página
+        web van creciendo día tras día. Esta demanda de los usuarios en favor de un mayor rendimiento y unos sitios web con prestaciones más avanzadas y completas se ve limitada por el lenguaje HTML que se utiliza actualmente. <br></p>
+
+
+    <p>
+        El lenguaje HTML5 El lenguaje (o "markup") HTML5 incorpora algunas etiquetas nuevas pensadas para hacer que la estructura de la página web sea más lógica y funcional. Antes de HTML5, la estructura de una página dependía fuertemente de las etiquetas <b> div></b>
+        <, generalmente asociadas a una clase CSS o un ID. Por ejemplo, en HTML 4.0 es una práctica comúnmente aceptada definir la cabecera de una página web de esta forma: <b>
+            < div id="header"> Esta es la cabecera
+                < / div>
+                    </b>
+                    En este caso, el código destacado en color rojo es el ID de CSS que sirve para definir la anchura y altura de la cabecera así como su color de fondo. En el código CSS podríamos tener algo así: <i><br>
+                        #header {
+                        width:960px;
+                        height:100px;
+                        background-color:gray;</i>
+    </p>
+
+    <p>
+        El ID utilizado header es arbitrario. Algunos diseñadores prefieren nombres como masthead, topsection, o box. En la especificación HTML5 existe ya una etiqueta llamada
+        < header> que viene a sustituir al elemento div> de forma que la sintaxis es mucho más lógica y coherente:
+            < header> Esta es la cabecera </ header>
+            ¿Qué es un elemento HTML? Un elemento HTML se define mediante una etiqueta de inicio, algo de contenido y una etiqueta de finalización:
+            < nombre de etiqueta> El contenido va aquí ...
+                < / nombre de etiqueta>
+                    El elemento HTML es todo, desde la etiqueta de inicio hasta la etiqueta de finalización:
+                    < h1> Mi primer título
+                        < / h1>
+                            < p> Mi primer párrafo.
+                                < / p>
+                                    Start tag Element content End tag
+                                    < h1> My First Heading </ h1>
+                                    < p> My first paragraph.
+                                        </>
+                                        < br> none none</p>
+
+
+    <p> Elementos
+        < video> y
+            < audio> para incorporar contenidos multimedia La estructura necesaria para incorporar contenidos de audio o vídeo a una página web es bastante sencilla, como podemos ver en el siguiente ejemplo donde añadimos un archivo de vídeo:
+                < video src="catz.mp4" width="400" height="300">
+                    < /video>
+                        Insertar un archivo de audio mp3 en la página se hace de forma similar. En el caso del audio y el vídeo podemos añadirle también controles de reproducción y la posibilidad de precarga, utilizando los atributos controls, preload, y autobuffer:
+                        < audio src="high_seas_rip.mp3" controls preload="auto" autobuffer></ audio>
+                        Esta característica de HTML5 es muy útil si se compara con los métodos disponibles hasta ahora. Por ejemplo, para incorporar vídeo con Adobe Flash o Microsoft Silverlight es preciso añadir código de programación. Aunque es de agradecer la simplificación
+                        que suponen las etiquetas
+                        < video> y
+                            < audio>, en seguida surge la pregunta de cómo vamos a hacer para manejar estos contenidos desde los navegadores anteriores que no reconocen estas etiquetas nuevas. <br></p>
+
+    El elemento
+    < canvas> para dibujo y animación El elemento canvas funciona a modo de superficie de dibujo dentro de una página web (de ahí le viene el nombre). Dentro de esta superficie de dibujo podemos crear formas con colores, gradientes y patrones de relleno. Podemos
+        manipular los pixels de forma interactiva en pantalla, mostrar textos y exportar los contenidos hacia archivos de imagen estática, como .PNG. Podemos también utilizar JavaScript o las nuevas funciones de animación de CSS3 para que los objetos
+        que creamos puedan moverse, desaparecer, cambiar de tamaño, etc. Incorporar un elemento canvas a una página es muy sencillo:
+        < canvas id="myCanvas"></ canvas> <br> Formularios web Los nuevos elementos de formulario de HTML, cuando se implementen, harán que el trabajo con formularios sea más sencillo que ahora. Por ejemplo, muchos diseñadores web necesitan crear formularios en donde los datos
+        tienen que comprobarse antes de enviarlos al servidor. Es casi obligado que el usuario, por ejemplo, tenga que escribir una dirección de correo electrónico en un campo de un formulario. A día de hoy, para validar este dato se necesita programación
+        en Javascript o cualquier otro lenguaje de scripting, pero HTML5 incorpora el atributo required a la lista de tipos de datos de entrada utilizables en formularios, como se muestra en este ejemplo:
+        < input type="email" required>
+
+            <p>
+                <h4>Conclusiones</h4>
+
+               <br> En esta actividad nos muestra lo básico y fundamental de html desde los h1 hasta como insertar audio o una imagen con sus respectivas etiquetas y también el uso y apoyo de canva que es de mucha
+                ayuda,así como la entrada de formularios web que normalmente se ocupa un lenguaje de scripting pero aquí añade otra etiqueta que facilita el formulario.
+                <b><i><br>“Jose Antonio Urdiales
+                    Aguilar
+                    1668240”</b></i><br>
+            </p>
+
+            </p>
+
+
+</body>
+
+</html>

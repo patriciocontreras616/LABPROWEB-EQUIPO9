@@ -1,0 +1,79 @@
+
+
+
+.navbar{
+    text-align: right;
+}
+body {
+    background-image: url(/imagenes/fondoprin.jpg);
+    background-size:3000px;
+    
+        font-size: 1.4rem;
+        font-family: sans-serif;
+        line-height: 1.4;
+      }
+      
+      a {
+        outline: none;
+        text-decoration: none;
+        padding: 2px 1px 0;
+      }
+      
+      a:link {
+        color: #265301;
+      }
+      
+      a:visited {
+        color: #437A16;
+      }
+      
+      a:focus {
+        border-bottom: 1px solid;
+        background: #BAE498;
+      }
+      
+      a:hover {
+        border-bottom: 1px solid;
+        background: #CDFEAA;
+      }
+      
+      a:active {
+        background: #265301;
+        color: #CDFEAA;
+      }
+    
+    
+
+
+
+.uanl{  
+   display: flex;
+   justify-content: space-between; 
+           
+}
+.Presentacion{
+    font-size: 25px;
+    text-align: center;
+    color:darkred;   
+}
+    
+.datos{
+    text-align: center;
+    font-size: 25px;
+
+}
+.programas {
+    text-align: center;
+    color: darkred;
+}
+.Lenguajes{
+    text-align: center;
+    color: darkred;
+
+ }
+    .contacto{
+        text-align: center;
+        color: white;
+        font-size: 30px;
+        background-color:lightseagreen ;
+    }
