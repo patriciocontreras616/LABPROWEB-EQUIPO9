@@ -1,0 +1,66 @@
+html
+{
+	background-image: url(../imagenes/100.jpg);
+	background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+h2
+{
+	color: darkgreen;
+}
+
+h3
+{
+	color: yellow;
+}
+
+img
+{
+	width: 400px;
+}
+
+.text
+{
+
+	text-align: left;
+	color: white;
+	font-size: 20px;
+	background-color: black;
+	padding: 5%;
+	margin: 5%;
+	border-style: solid;
+	border-color: white;
+}
+
+header
+{
+	border-style: solid;
+	border-color: white;
+	color: white;
+	background-color: black;
+	display: inline-block;
+	padding: 2%;
+	margin: 2%;
+	text-align: center;
+	float: right;
+
+
+}
+
+a
+{
+	color: white;
+	text-decoration: none;
+	background-color: green;
+	margin: 20px;
+	font-size: 20px;
+	border-radius: 50%;
+}
+
+a:hover
+{
+	color: yellow;
+}
